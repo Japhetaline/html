@@ -1,0 +1,20 @@
+body{
+    background-color: lightgrey;
+    text-align: center;
+}
+h1{
+    color: black;
+    font-family: Arial;
+    font-size: 20px;
+}
+p{
+    color: white;
+    font-family: sans-serif;
+}
+.Form-rows{
+    margin: 10px;
+
+}
+.fields{
+    
+} 

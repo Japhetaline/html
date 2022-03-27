@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="surveyform.CSS">
+    <head>
+        <title>Survey Form</title>
+    </head>
+<form id="Survey form" action="My handling over form" method="post">
+    <div class="header">
+        <h1>Application for permission to marry keji</h1>
+        <p><b>Note:</b> Form is to be completed at least 21 days prior to date</p>
+    </div>
+
+  <!-- ------------------Personal Details---------------------------- -->
+ <fieldset>
+     <legend><strong>Personal details</strong></legend>
+<div class="label">
+<label id="name" for="name"> Name:</label>
+<input type="text" id="name" name="username" placeholder="Enter name here" required> <br> <br>
+<label id="Address" for="Address"> Address:</label>
+<input type="text" id="Address" name="Address" placeholder="Enter address here" required> <br> <br>
+<label id="Email" for="Email"> Email:</label>
+<input type="Email" id="Email" name="Email" placeholder="Enter email here" required> <br> <br>
+<label id="Phone Number" for="Phone Number"> Phone Number:</label>
+<input type="Phone Numberl" id="Phone Number" name="Phone Number" 
+placeholder="Enter 10 digit" min="1" max="9" required> <br> <br>
+<label id="IQ" for="IQ"> IQ:</label>
+<input type="text" id="IQ" name="IQ" placeholder="Enter IQ here" required> <br> <br>
+
+<p>Gender</p>
+<input type="Radio" name="gender" id="Option1">
+<label for="Male" id="option1">Male</label> <br>
+<input type="Radio" name="gender" id="Option2">
+<label for="Female" id="option2">Female</label> <br>
+<input type="Radio" name="gender" id="Option3">
+<label for="Other"id="option3">Gender</label> <br> <br>
+
+<label id="birthday" for="birthday">Date of proposed Outing:</label>
+<input type="date" id="birthday" name="birthday" placeholder="" required> 
+</div>
+
+<!-- ----------------------Check boxes------------------------ -->
+</fieldset>
+<fieldset>
+    <legend><strong>More About you</strong></legend>
+<label for="gender">Check all that Apply</label> <br> <br>
+
+<input type="checkbox" name="tatoo">I have tattoos and/or piercings <br>
+<input type="checkbox" name="years">I am more than 2 years older than my daughter<br>
+<input type="checkbox" name="panel">I own a panel van or V8 ute<br>
+<input type="checkbox" name="work">I work full-time<br>
+<input type="checkbox" name="parent">My parents are rich<br>
+<input type="checkbox" name="location">Is the date at a well lit public location<br>
+ 
+<!-- ----------------------Education------------------------ -->
+</fieldset>
+<fieldset>
+    <div>
+        <label for="Political">Political Persuation:</label>
+        <select name="dropdown" id="dropdown">
+        <option value="left">Left wing</option>
+        <option value="right">Right wing</option>
+        <option value="conservative">Conservative</option>
+        <option value="Nazi">Nazi</option>
+        </select>
+        
+        <label for="Education">Education Level Completed:</label>
+        <select name="dropdown2" id="dropdown2">
+        <option value="University">University</option>
+        <option value="College">College</option>
+        <option value="High school">High School</option>
+        <option value="None">None</option>
+        </select>
+    </div>
+
+    <!-- ----------------------Essay------------------------ -->
+</fieldset>
+<fieldset>
+    <legend><strong>Essay Section</strong></legend>
+    <p class="words">In 50 words or more explain why you want to date my daughter</p>
+    <textarea name="msg" id="" cols="50" rows="4" placeholder="enter text here"
+     required></textarea> <br>
+
+    <p class="references">Please upload contact details for 2 references</p>
+<textarea name="msg" id="" cols="50" rows="4" placeholder="enter text here"></textarea> <br> <br>
+<p>Upload Police Clearance Certificate, Bank Statement and Medical
+     Certifiates here: <button>Attach File</button></p>
+     </fieldset>
+<footer><button>Send Your Application</button></footer>
+</form>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="Codesurveyform.CSS">
+        <title>Codesurvey Foam</title>
+    </head>
+    <body>
+        <h1>freeCodeCamp Survey Form</h1>
+        <div class="introduction">
+            <p><em>Thank you for taking the time to help us improve the platform</em></p>
+        </div>
+
+            <div class="Form-rows">
+                <div class="lables">
+                <label for="Name">Name</label> <br>
+            </div> 
+                <div class="fields">
+                    <input type="text" id="name" placeholder="Enter your name">
+                </div> <br>
+        </div>
+        <div class="Form-rows">
+            <label for="Email">Email</label> <br>
+        </div>
+            <div class="fields">
+                <input type="text" id="email" placeholder="Enter your email" required>
+            </div> <br>
+    </div>
+    <div class="Form-rows">
+        <label for="Age">Age (Optional)</label> <br>
+    </div>
+        <div class="fields">
+            <input type="text" id="age" placeholder="Age" required>
+        </div> <br>
+    </div>
+    <div class="Form-rows">
+        <label for="Roles">Which option best describes your current role?</label><br>
+    </div>
+        <div class="fields-list">
+            <select style="list-style: none;" name="roles" id="dropdown"> 
+                <option value="student">Student</option>
+                <option value="fulltime Job">Fulltime Job</option>
+                <option value="Fulltime time learner">Full time learner</option>
+                <option value="Prefer not to say">Prefer not to say</option>
+                <option value="Others">Others</option>
+            </select>
+        </div> <br>
+</div>
+    <div class="Form-rows">
+        <label for="Recommend">Would you recommend freeCodeCamp to a friend?</label>
+    </div>
+    <div class="fields-radio">
+        <div class="Radio">
+            <input type="radio" id="defininately">Defininately <br>
+            <input type="radio" id="maybe"> Maybe <br>
+            <input type="radio"> Not sure <br>
+        </div> <br>
+    </div>
+    <div class="Form-rows">
+        <label for="Favourite">What is your favorite feature of freeCodeCamp?</label> <br>
+    </div>
+        <div class="fields-list">
+            <select style="list-style: none;" name="roles" id="dropdown"> 
+                <option value="challenges">Challenges</option>
+                <option value="Projects">Projects</option>
+                <option value="Community">Community</option>
+                <option value="Open source">Open source</option>
+                <option value="Others">Others</option>
+            </select>
+        </div> <br>
+</div>
+<div class="Form-rows">
+    <label for="Recommend">What would you like to see improved? (Check all that apply)</label>
+</div>
+<div class="fields-checkbox">
+    <div class="checkbox">
+        <input type="checkbox" id="checkbox">Front-end Projects <br>
+        <input type="checkbox" id="checkbox">Back-end Projects <br>
+        <input type="checkbox" id="checkbox">Data Visualization <br>
+        <input type="checkbox" id="checkbox">Challenges <br>
+        <input type="checkbox" id="checkbox">Open Source Community <br>
+        <input type="checkbox" id="checkbox">Gitter help rooms<br>
+        <input type="checkbox" id="checkbox">Videos<br>
+        <input type="checkbox" id="checkbox">City Meetups<br>
+        <input type="checkbox" id="checkbox">Wiki<br>
+        <input type="checkbox" id="checkbox">Forum<br>
+        <input type="checkbox" id="checkbox">Additional Courses<br>
+    </div> <br>
+</div>
+<div class="Form-rows">
+    <label for="improve">What would you like to see improved? (Check all that apply)</label> <br>
+</div>
+<textarea name="textarea" id="textarea" cols="50" rows="4" placeholder="Enter your comment here">
+</textarea> <br> <br>
+<button class="submit">Submit</button>
+    </body>
+</html>

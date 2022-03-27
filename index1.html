@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Forms</title>
+</head>
+
+<body>
+    <h1>HTML Forms</h1>
+
+    <forms>
+        <input type="text" id="username" name="Username" placeholder="Username" required>
+        <br><br>
+        <label for="email"></label>
+        <input type="email" id="email" name="Email" placeholder="Email" required>
+        <br><br>
+        <label for="Password"></label>
+        <input type="password" id="password" name="Password" placeholder="Your password" required>
+
+        <p>Select your age:</p>
+        <input type="Radio" name="age" value="0-25" id="Option1">
+        <label for="Option1"> 0-25</label> <br>
+        <input type="Radio" name="age" value="26-50" id="Option2">
+        <label for="Option2"> 26-50</label> <br>
+        <input type="Radio" name="age" value="51-100" id="Option3">
+        <label for="Option3"> 51-100</label> <br>
+
+        <br><br>
+        <label for="questions"> Security questions:</label>
+        <select name="questions" id="questions">
+            <option value="q1"> What is your father name?</option>
+            <option value="q2"> Where do you live?</option>
+            <option value="q3"> How old are you?</option>
+            <option value="q4"> What is your mother name?</option>
+        </select>
+
+        <br><br>
+        <label for="Answer">Security question answer:</label>
+        <input type="text" id="answer" name="answer">
+
+        <br><br>
+        <label for="Your bio"> Your Bio:</label><br>
+        <textarea name="Biography" id="Bio" cols="30" rows="10" placeholder="About you..."></textarea>
+
+        <br><br>
+        <input type="Submit" value="submit the form">
+    </forms>
+
+
+</body>
+</html>
